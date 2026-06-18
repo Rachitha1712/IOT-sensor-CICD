@@ -1,6 +1,6 @@
 def validate_temperature(temp):
 
-    if temp < -20 or temp > 60:
+    if temp < -50 or temp > 100:
         return "Invalid Sensor Data"
 
     return "Valid Sensor Data"
